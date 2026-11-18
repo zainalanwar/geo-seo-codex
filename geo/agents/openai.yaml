@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO for Codex"
+  short_description: "Audit search visibility and AI citation readiness"
+  default_prompt: "Use $geo to audit my website and report evidence for each finding."

@@ -1,0 +1,5 @@
+# GEO compare
+
+Accept two explicit audit files, or a domain and optional --month. For a domain, select matching dated reports from the user's audit folder (upstream default ~/.geo-prospects/audits/). Use the oldest as baseline and newest as current, bounded by the requested comparison period. If only one exists, run a fresh quick check and compare overlapping observations. If none exist, report the missing baseline. Read the two selected dated audits. Match by final URL and finding ID or underlying check. Confirm that sampled URLs, provider, locale, query set and scoring method are comparable before computing changes. Mark missing and newly sampled pages explicitly.
+
+For each prior action classify verified fixed, still observed, newly observed or unknown. Show before/after evidence and dates. Break out verified technical changes and measured mentions/citations. Describe confounders such as changed model or sample. Calculate a score delta only for matching rubrics and denominators. Return a progress report with remaining actions and owners if known.
